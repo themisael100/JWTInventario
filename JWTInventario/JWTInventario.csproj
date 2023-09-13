@@ -13,7 +13,6 @@
 
   <ItemGroup>
 	  <Folder Include="Auth\" />
-    <Folder Include="Endpoints\" />
   </ItemGroup>
 
 </Project>
