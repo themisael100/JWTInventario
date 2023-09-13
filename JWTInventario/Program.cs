@@ -80,8 +80,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.AddAccountEndoints();
-app.AddProtectedEndpoints();
-//app.();
+app.AddCategoriaProductoEndpoint();
+app.AddBodegaEndpoint();
 
 app.UseHttpsRedirection();
 

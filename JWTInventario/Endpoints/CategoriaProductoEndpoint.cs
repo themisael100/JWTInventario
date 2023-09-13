@@ -4,7 +4,7 @@
     {
         static List<Object> data = new List<object>();
 
-        public static void AddProtectedEndpoints(this WebApplication app)
+        public static void AddCategoriaProductoEndpoint(this WebApplication app)
         {
             app.MapGet("/CategoriaProducto", () =>
             {
